@@ -1,0 +1,7 @@
+if filereadable(expand('$VIM/gvimrc_win.vim'))
+    source $VIM/gvimrc_win.vim
+endif
+
+if filereadable(expand('$VIM/gvimrc_win_desktop.vim'))
+    source $VIM/gvimrc_win_desktop.vim
+endif
