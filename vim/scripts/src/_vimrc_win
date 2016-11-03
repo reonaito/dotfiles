@@ -34,14 +34,10 @@ endfunction
 
 """"
 
-if filereadable(expand('$VIM/vimrc_win.vim'))
-    source $VIM/vimrc_win.vim
-endif
-
 if filereadable(expand('$VIM/vimrc_common.vim'))
     source $VIM/vimrc_common.vim
 endif
 
-if filereadable(expand('$VIM/vimrc_chars.vim'))
-    source $VIM/vimrc_chars.vim
+if filereadable(expand('$VIM/vimrc_win.vim'))
+    source $VIM/vimrc_win.vim
 endif

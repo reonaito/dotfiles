@@ -1,4 +1,3 @@
-
 let $HOME='C:\Users\reo\programs\Vim'
 
 set encoding=utf-8
@@ -9,4 +8,3 @@ set noundofile
 set nobackup
 
 colorscheme koehler
-
