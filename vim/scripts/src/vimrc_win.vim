@@ -11,3 +11,5 @@ set nobackup
 colorscheme koehler
 
 let $HOME='C:\Users\reo\programs\Vim'
+
+let g:netrw_winsize = -25

@@ -4,3 +4,5 @@ set fileformats=unix,dos,mac
 
 set list
 set listchars=tab:»-,trail:-,eol:¬,extends:»,precedes:«,nbsp:%
+
+let g:netrw_winsize = -25
