@@ -41,3 +41,7 @@ endif
 if filereadable(expand('$VIM/vimrc_win.vim'))
     source $VIM/vimrc_win.vim
 endif
+
+if filereadable(expand('$VIM/vimrc_list.vim'))
+    source $VIM/vimrc_list.vim
+endif

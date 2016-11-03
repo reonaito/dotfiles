@@ -7,8 +7,6 @@ set expandtab
 set shiftwidth=4
 set smartindent
 
-set list
-set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 set hidden
 
 syntax on

@@ -3,3 +3,4 @@
 ln -sf "$(cd $(dirname $0) && pwd)/src/_vimrc_ubuntu" ~/.vimrc
 ln -sf "$(cd $(dirname $0) && pwd)/src/vimrc_common.vim" ~/.vim/vimrc_common.vim
 ln -sf "$(cd $(dirname $0) && pwd)/src/vimrc_ubuntu.vim" ~/.vim/vimrc_ubuntu.vim
+ln -sf "$(cd $(dirname $0) && pwd)/src/vimrc_list_ubuntu.vim" ~/.vim/vimrc_list_ubuntu.vim
