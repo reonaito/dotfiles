@@ -2,6 +2,6 @@ if filereadable(expand('$HOME/.vim/vimrc_common.vim'))
     source $HOME/.vim/vimrc_common.vim
 endif
 
-if filereadable(expand('$HOME/.vim/vimrc_chars.vim'))
-    source $HOME/.vim/vimrc_chars.vim
+if filereadable(expand('$HOME/.vim/vimrc_chars_ubuntu.vim'))
+    source $HOME/.vim/vimrc_chars_ubuntu.vim
 endif
