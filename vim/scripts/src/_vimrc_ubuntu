@@ -5,7 +5,3 @@ endif
 if filereadable(expand('$HOME/.vim/vimrc_ubuntu.vim'))
     source $HOME/.vim/vimrc_ubuntu.vim
 endif
-
-if filereadable(expand('$HOME/.vim/vimrc_list_ubuntu.vim'))
-    source $HOME/.vim/vimrc_list_ubuntu.vim
-endif
