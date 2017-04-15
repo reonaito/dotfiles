@@ -1,0 +1,4 @@
+[[plugins]]
+repo = 'vim-scripts/CoqIDE'
+on_ft = ['coq']
+

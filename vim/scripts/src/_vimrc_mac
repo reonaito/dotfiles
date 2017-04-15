@@ -5,3 +5,8 @@ endif
 if filereadable(expand('$HOME/.vim/vimrc_mac.vim'))
     source $HOME/.vim/vimrc_mac.vim
 endif
+
+if filereadable(expand('$HOME/.vim/dein_conf.vim'))
+    source $HOME/.vim/dein_conf.vim
+endif
+
