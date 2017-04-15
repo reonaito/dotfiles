@@ -22,7 +22,7 @@ let g:netrw_chgwin = 2
 let g:netrw_winsize = -25
 
 set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileencodings=utf-8,sjis,euc-jp,iso-2022-jp
 set fileformats=unix,dos,mac
 
 set list
