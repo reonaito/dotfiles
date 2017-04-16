@@ -4,6 +4,9 @@ repo = 'Shougo/dein.vim'
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 
-[[plugins]]
-repo = 'jvoorhis/coq.vim'
+# [[plugins]]
+# repo = 'jvoorhis/coq.vim'
+
+# [[plugins]]
+# repo = 'vim-scripts/CoqIDE'
 
