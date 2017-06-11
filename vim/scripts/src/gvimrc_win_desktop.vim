@@ -1,2 +1,2 @@
-set guifont=MS_Gothic:h12
-set guifontwide=MS_Gothic:h12
+set guifont=Ricty_Diminished:h12
+set guifontwide=Ricty_Diminished:h12
