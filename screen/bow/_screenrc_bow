@@ -1,3 +1,13 @@
 startup_message off
 hardstatus alwayslastline "%-w%{= ck}%n %t%{-}%+w"
 
+#resize
+bind r eval 'command -c resize'
+bind ^r eval 'command -c resize'
+
+bind -c resize + eval 'resize +1' 'command -c resize'
+bind -c resize - eval 'resize -1' 'command -c resize'
+bind -c resize = eval 'resize =' 'command -c resize'
+bind -c resize 8 eval 'resize 80' 'command -c resize'
+bind -c resize 6 eval 'resize 160' 'command -c resize'
+
