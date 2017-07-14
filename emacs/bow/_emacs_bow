@@ -1,5 +1,8 @@
 (add-to-list 'default-frame-alist '(font . "Ricty Diminished-13.5"))
 
+(setq make-backup-files t)
+(setq auto-save-list-file-prefix nil)
+
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 (windmove-default-keybindings)
