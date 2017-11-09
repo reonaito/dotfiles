@@ -1,6 +1,6 @@
-if filereadable(expand('$HOME/.vim/dein_conf.vim'))
-    source $HOME/.vim/dein_conf.vim
-endif
+"if filereadable(expand('$HOME/.vim/dein_conf.vim'))
+"    source $HOME/.vim/dein_conf.vim
+"endif
 
 if filereadable(expand('$HOME/.vim/vimrc_common.vim'))
     source $HOME/.vim/vimrc_common.vim
