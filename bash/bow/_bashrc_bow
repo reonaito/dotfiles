@@ -156,3 +156,5 @@ function chrome () {
 
 alias docker='docker -H tcp://localhost:2375'
 
+export DISPLAY=localhost:0.0
+
