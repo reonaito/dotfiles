@@ -118,7 +118,7 @@ fi
 ####################
 
 stty stop undef
-export EDITOR=/usr/local/bin/vim
+export EDITOR=vim
 
 export CDPATH=/mnt/c/Users/reo/Dropbox/documents/:/mnt/c/Users/reo/Documents/
 
@@ -157,4 +157,5 @@ function chrome () {
 alias docker='docker -H tcp://localhost:2375'
 
 export DISPLAY=localhost:0.0
+export NODE_PATH=/home/reo/node_modules
 
